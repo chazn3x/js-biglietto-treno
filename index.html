@@ -5,9 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biglietto del Treno</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
+    <main class="container flex-center">
+        <div class="card">
+            <div class="card-header flex-center">
+                <h1>FastTrain Transport</h1>
+            </div>
+            <div class="card-body">
+                <div class="chilometri">
+                    <h2>Chilometri:</h2>
+                    <p id="km" class="white-rounded"></p>
+                </div>
+                <div class="eta">
+                    <h2>Età:</h2>
+                    <p id="age" class="white-rounded"></p>
+                </div>
+                <div id="discount-div" class="sconto">
+                    <h2>Sconto applicato:</h2>
+                    <p id="discount" class="white-rounded"></p>
+                </div>
+                <div class="prezzo">
+                    <h2>Costo totale*:</h2>
+                    <p id="subtotal" class="white-rounded"></p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <p id="info"></p>
+            </div>
+        </div>
+    </main>
+
     <script src="./js/script.js"></script>
 
 </body>
