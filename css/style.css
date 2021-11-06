@@ -51,15 +51,22 @@ body {
 }
 .white-rounded {
     width: 250px;
-    font-size: 1.5em;
-    margin: 20px 0;
+    font-size: 1.3em;
+    margin: 15px 0;
     padding: 10px 15px;
     background: #fff;
     border-radius: 6px;
     box-shadow: 0 3px 5px rgba(0,0,0,0.3);
 }
-.card-footer p {
+.card-footer {
     padding: 10px 20px;
+}
+.card-footer p {
     color: rgba(0,0,0,0.5);
     font-size: .7em;
+}
+.card-footer p:first-child {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: .8em;
 }
