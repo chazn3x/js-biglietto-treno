@@ -3,7 +3,7 @@
 let km = parseFloat(prompt("Quanti chilometri vuoi percorrere?"));
 // controllo input se non è un numero o se è un numero negativo
 while ((isNaN(km)) || (km < 0)) {
-    km = parseInt(prompt("Inserisci un numero di chilometri valido:"));
+    km = parseFloat(prompt("Inserisci un numero di chilometri valido:"));
 }
 document.getElementById("km").innerHTML = km + "km";
 let age = parseInt(prompt("Quanti anni hai?"));
